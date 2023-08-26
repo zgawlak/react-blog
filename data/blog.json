@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "Welcome to BingBlog",
+      "body": "bingus here..",
+      "author": "bingus",
+      "id": 1
+    },
+    {
+      "title": "hello bings",
+      "body": "welcome to my twisted ankle",
+      "author": "floppa",
+      "id": 2
+    }
+  ]
+}
