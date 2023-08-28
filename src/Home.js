@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
-import Bloglist from './Bloglist';
-import useFetch from './usefetch';
+import PostList from './PostList';
+import useFetch from './useFetch';
 
 const Home = () => {
     const { data: posts, isPending, error } = useFetch("http://localhost:8000/posts");
@@ -9,7 +8,7 @@ const Home = () => {
         <div className="home">
             {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
-            {posts && <Bloglist posts={posts} title="All posts!" />}
+            {posts && <PostList posts={posts} title="All posts!" />}
         </div>
     );
 }
