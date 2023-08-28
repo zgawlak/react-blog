@@ -61,3 +61,12 @@
   margin-bottom: 8px;
 }
 
+.post-details h2 {
+  font-size: 20px;
+  color: #bb416b;
+  margin-bottom: 10px;
+}
+
+.post-details div {
+  margin: 20px 0;
+}
